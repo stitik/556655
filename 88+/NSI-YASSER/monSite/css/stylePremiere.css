@@ -1,0 +1,187 @@
+@font-face {
+	font-family: Comfortaa;
+	src: url("../font/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: Comfortaa;
+}
+.retour{
+	background-color: black;
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	border-radius: 10px;
+	padding: 10px;
+	float: right;
+	position: fixed;
+	z-index: 1;
+  left: 0;
+  top: 0;
+}
+button {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: Comfortaa;
+  font-size: 20px ;
+  position: fixed;
+  margin-left: 10px;
+  }
+button:hover, button:focus, button:active {
+    /* swap colors */
+    color: red;
+    background-color: black;
+    cursor: pointer; /* displays a hand */
+  }
+#background-video{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.Copyright{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  position: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  float: left;
+  opacity: 0.8;
+}
+.email{
+  color: black;
+}
+.banniere{
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: slategrey; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid slategrey; /* creates padding around scroll thumb */
+}
+
+
+.présentation {
+  width: 95%;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+
+.invisible{
+  text-decoration: none;
+  color: white; 
+}
+
+.t1 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#159e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.remonter{
+  color: black;
+  background-color: #2579AF;
+  position: fixed;
+  float: right;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  bottom:0; 
+  right:0;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Copyright{
+	background: #2579AF;
+  width: body;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 10px;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+  bottom: 0;
+}
+
+.utile {
+  width: body;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#005e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+.warning{
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+}
+a{
+  color: red;
+}
+
+::selection{
+  background-color: #3e3e3e;
+  color: white;
+}
+
+a::selection{
+  
+  background-color: #3e3e3e;
+  color: red;
+}

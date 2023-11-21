@@ -1,0 +1,232 @@
+@font-face {
+	font-family: Comfortaa;
+	src: url("../font/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+body{
+	font-family: Comfortaa;
+}
+
+#background-video{
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.banniere{
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	margin: auto;
+	padding: 20px;
+}
+.retour{
+	background-color: black;
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	border-radius: 10px;
+	padding: 10px;
+	float: right;
+	position: fixed;
+	z-index: 1;
+  left: 0;
+  top: 0;
+}
+.texte{
+	background-color: #2b8871;
+	height: fit-content;
+	border-radius: 20px;
+	padding: 20px;
+	float: left;
+	font-size: 30px;
+  text-align: center;
+  
+}
+.text2{
+	background-color: rgb(139, 0, 0);
+	height: fit-content;
+	border-radius: 20px;
+	padding: 20px;
+	width: fit-content;
+	font-size: 30px;
+	margin: auto;
+	float: right;
+  text-align: center;
+  text-decoration: none;
+}
+button {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: Comfortaa;
+  font-size: 20px ;
+  position: fixed;
+  margin-left: 10px;
+  }
+button:hover, button:focus, button:active {
+    /* swap colors */
+    color: red;
+    background-color: black;
+    cursor: pointer; /* displays a hand */
+  }
+.tailleimg{
+  	width: 3%;
+  	height: 3%;
+  }
+.mieuxlien{
+  	color: black;
+  }
+.boite1 {
+  width: body;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+.Copyright{
+	background: #2579AF;
+  width: body;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 10px;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+  bottom: 0;
+}
+.email{
+	color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll{
+	color: white;
+}
+
+.boite2 {
+  width: body;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#159e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+.boite4 {
+  width: body;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#15Fe55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+.boite3 {
+  width: body;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#005e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: slategrey; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid slategrey; /* creates padding around scroll thumb */
+  
+}
+
+
+.tailleimg2{
+  	width: 10%;
+  	height: 10%;
+  	vertical-align: middle;
+  	padding-right: 10px;
+  	padding-bottom: 30px;
+  }
+::selection{
+  background-color: #3e3e3e;
+  color: white;
+}
+
+.lienscroll{
+  color: white;
+  text-decoration: none;
+}
+.remonter{
+  color: black;
+  background-color: #2579AF;
+  position: fixed;
+  float: right;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  bottom:0; 
+  right:0;
+  height: fit-content;
+  width: fit-content;
+}
+mark{
+  border-radius: 90px 90px 90px 10px;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  background: black;
+  color: white;
+}
+.invisible{
+  text-decoration: none;
+
+}
+
+.suivant{
+	background-color: black;
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+  bottom: 0;
+}

@@ -1,0 +1,244 @@
+body{
+    background: url(../video/prg.gif);
+    position: fixed;
+    background-repeat:no-repeat ;
+	background-size:cover ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}@font-face {
+	font-family: Comfortaa;
+	src: url("../font/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+p{
+	opacity: 1;
+}
+
+body{
+	background-color: lightblue;
+	font-family: Comfortaa;
+	text-decoration-color: darkred;
+
+}
+
+
+img{
+	border-image-width: body;
+}
+h1{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	width: fit-content;
+	height: fit-content;
+	float: left;
+}
+#background-video{
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.boite1 {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin: 20px;
+  color:white;
+  font-size: 30px;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  float: left;
+  border: solid white 5px;
+}
+#imagespe{
+	width: 25%;
+	height: 25%;
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
+}
+ol{
+	font-size: 30px;
+	color: white;
+}
+.boite2 {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  color: white;
+  font-size: 45px;
+  background-color: white;
+  color: red;
+  text-decoration-color: darkred;
+  height: fit-content;
+  width: 95%;
+  border-radius: 20px;
+  float: left;
+}
+.banniere{
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	margin: auto;
+	padding: 20px;
+}
+ a::selection {
+            color: #FF00CC
+}
+::selection{
+	color: red;
+	background-color: blue;
+}
+.Copyright{
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	background-color: #00F0F0;
+	position: center;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	float: right;
+	opacity: 0.8;
+}
+button {
+  background-color: #0FaFF2;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: Comfortaa;
+  font-size: 20px ;
+   }
+button:hover, button:focus, button:active {
+    /* swap colors */
+    color: red;
+    background-color: black;
+    cursor: pointer; /* displays a hand */
+  }
+.button1 {
+  	border-radius: 10px;
+  	position: center;
+  	width: 100%;
+
+  }
+
+.Copyright::selection{
+	color: white;
+	background-color: black;
+}
+button::selection{
+	background-color: #123456;
+	color: #654321;
+}
+.email{
+	color: black;
+}
+.boiteinvisible{
+	opacity: 0;
+	float: right;
+	font-size: 80px	;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: slategrey; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid slategrey; /* creates padding around scroll thumb */
+}
+/*animation*/
+.anim{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(100px);
+	border: solid rgb(14, 136, 75) 10px;
+	border-radius: 20px;
+	margin-top: 250px;
+}
+
+.lettre{
+	color: #09471e;
+	font-size: 80px;
+	letter-spacing: 15px;
+	animation: flash 1.2s linear infinite;
+
+}
+
+@keyframes flash{
+	0%{
+		color: rgb(14, 136, 75);
+		text-shadow: 0 0 7px rgb(14, 136, 75);
+	}
+
+	90%{
+		color: #09471e;
+		text-shadow: none;
+	}
+	100%{
+		color: rgb(14, 136, 75);
+		text-shadow: 0 0 7px rgb(14, 136, 75);
+	}
+}
+.lettre:nth-child(1){
+	animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+	animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+	animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+	animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+	animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+	animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+	animation-delay: 0.7s;
+}
+.lettre:nth-child(8){
+	animation-delay: 0.8s;
+}
+.lettre:nth-child(9){
+	animation-delay: 0.9s;
+}
+.lettre:nth-child(10){
+	animation-delay: 1s;
+}
+
+.fondu-out{
+	opacity: 0;
+	transition: opacity 0.4s ease-out;
+}
+.demande{
+	background-color: #09471e;
+	font-size: 50px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	border: solid white 4px;
+
+}
