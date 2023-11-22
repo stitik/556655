@@ -1,0 +1,151 @@
+@font-face {
+	font-family: Comfortaa;
+	src: url("../font/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+p{
+	opacity: 1;
+}
+
+body{
+	background-color: lightblue;
+	font-family: Comfortaa;
+	text-decoration-color: darkred;
+}
+
+
+img{
+	border-image-width: body;
+}
+h1{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	width: fit-content;
+	height: fit-content;
+	float: left;
+}
+#background-video{
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.boite1 {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin: 20px;
+  color:white;
+  font-size: 30px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  float: left;
+  border: solid white 5px;
+}
+#imagespe{
+	width: 25%;
+	height: 25%;
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
+}
+ol{
+	font-size: 30px;
+	color: white;
+}
+.boite2 {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  color: white;
+  font-size: 45px;
+  background-color: white;
+  color: red;
+  text-decoration-color: darkred;
+  height: fit-content;
+  width: 95%;
+  border-radius: 20px;
+  float: left;
+}
+.banniere{
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	margin: auto;
+	padding: 20px;
+}
+
+::selection{
+	background-color: #3e3e3e;
+	color: white;
+}
+.Copyright{
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	background-color: #0d7777;
+	position: center;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	float: right;
+	opacity: 0.8;
+}
+button {
+	background-color: #0d7777;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: Comfortaa;
+  font-size: 20px ;
+   }
+button:hover, button:focus, button:active {
+    /* swap colors */
+    color: white;
+    background-color: #06163b;
+    cursor: pointer; /* displays a hand */
+  }
+.button1 {
+  	border-radius: 10px;
+  	position: center;
+  	width: 100%;
+
+  }
+
+button::selection{
+	background-color: #123456;
+	color: #654321;
+}
+.email{
+	color: black;
+}
+.boiteinvisible{
+	opacity: 0;
+	float: right;
+	font-size: 80px	;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: slategrey; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid slategrey; /* creates padding around scroll thumb */
+}
+
